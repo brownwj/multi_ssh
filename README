@@ -1,0 +1,31 @@
+---------------------------------------------------
+Intention:
+I wish to save time in doing tedious work set up 
+the hadoop environment to the machines.
+The programs are ugly and simple, discard me when 
+you think I'm unbearable :->
+
+---------------------------------------------------
+Before using this:
+pip ssh or other methods to let "import ssh" work
+
+---------------------------------------------------
+Files:
+ip_list: list of ips
+copy_list: source_dir_1
+           dest_dir_1
+		   source_dir_2
+		   dest_dir_2
+copy_conf.py: copy ${source_dir_1} to ${dest_dir_1}
+              copy ${source_dir_2} to ${dest_dir_2}
+command_list: command_1
+              command_2
+multi_ssh_multi_operations.py: execute ${command_1}
+                               execute ${command_2}
+
+---------------------------------------------------
+Usage:
+open *.py, search for "USERNAME" and "PASSWORD", then
+replace with your username and your password
+python multi_ssh_multi_operations.py
+python copy_conf.py

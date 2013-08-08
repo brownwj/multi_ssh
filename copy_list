@@ -1,0 +1,4 @@
+../hadoop-core/conf/masters
+hadoop-core/conf/masters
+slaves
+hadoop-core/conf/slaves
